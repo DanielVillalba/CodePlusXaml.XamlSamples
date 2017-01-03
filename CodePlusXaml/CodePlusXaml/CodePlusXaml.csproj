@@ -41,19 +41,15 @@
     <Compile Include="CodePlusXamlPage.xaml.cs">
       <DependentUpon>CodePlusXamlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScaryColorListPage.xaml.cs">
       <DependentUpon>ScaryColorListPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TextVariations.xaml.cs">
+      <DependentUpon>TextVariations.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="App.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -85,6 +81,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ScaryColorListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TextVariations.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

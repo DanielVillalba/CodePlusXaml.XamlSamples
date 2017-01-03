@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace CodePlusXaml
 {
-    public partial class MainPage : ContentPage
+    public partial class TextVariations : ContentPage
     {
-        public MainPage()
+        public TextVariations()
         {
             InitializeComponent();
         }
