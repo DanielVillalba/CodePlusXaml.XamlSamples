@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodePlusXaml.ScaryColorListPage">
+  
+  <!--
+  This is the sample using a lot of property elements, this is not required most of the time
+  unless you have to pass a specific value to any property attributes
+  
+  <ContentPage.Content>
+    <StackLayout>
+      <StackLayout.Children>
+
+        <Frame OutlineColor="Accent">
+          <Frame.Content>
+            <StackLayout Orientation="Horizontal">
+              <StackLayout.Children>
+                <BoxView Color="Red"/>
+                <Label Text="Red"
+                       VerticalOptions="Center"/>
+              </StackLayout.Children>
+            </StackLayout>
+          </Frame.Content>
+        </Frame>
+
+        <Frame OutlineColor="Accent">
+          <Frame.Content>
+            <StackLayout Orientation="Horizontal">
+              <StackLayout.Children>
+                <BoxView Color="Green"/>
+                <Label Text="Green"
+                       VerticalOptions="Center"/>
+              </StackLayout.Children>
+            </StackLayout>
+          </Frame.Content>
+        </Frame>
+
+        <Frame OutlineColor="Accent">
+          <Frame.Content>
+            <StackLayout Orientation="Horizontal">
+              <StackLayout.Children>
+                <BoxView Color="Blue"/>
+                <Label Text="Blue"
+                       VerticalOptions="Center"/>
+              </StackLayout.Children>
+            </StackLayout>
+          </Frame.Content>
+        </Frame>
+
+      </StackLayout.Children>
+    </StackLayout>
+  </ContentPage.Content>
+  -->
+
+  
+  <!-- Exactly the same result as above but without using the property elements -->
+    <StackLayout>
+        <Frame OutlineColor="Accent">
+            <StackLayout Orientation="Horizontal">
+                <BoxView Color="Red"/>
+                <Label Text="Red"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame OutlineColor="Accent">
+            <StackLayout Orientation="Horizontal">
+                <BoxView Color="Green"/>
+                <Label Text="Green"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame OutlineColor="Accent">
+            <StackLayout Orientation="Horizontal">
+                <BoxView Color="Blue"/>
+                <Label Text="Blue"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+
+
+
+</ContentPage>

@@ -27,7 +27,7 @@ namespace CodePlusXaml
                 FontAttributes = FontAttributes.Bold | FontAttributes.Italic
             };
 
-            (Content as StackLayout).Children.Insert(1, label);
+            (Content as StackLayout).Children.Insert(0, label);
         }
     }
 }
