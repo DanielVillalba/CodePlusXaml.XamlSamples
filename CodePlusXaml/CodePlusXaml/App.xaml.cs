@@ -13,7 +13,7 @@ namespace CodePlusXaml
         {
             InitializeComponent();
 
-            MainPage = new TextVariations();
+            MainPage = new ParameteredConstructorDemoPage();
         }
 
         protected override void OnStart()
