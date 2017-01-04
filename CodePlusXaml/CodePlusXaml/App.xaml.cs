@@ -13,7 +13,7 @@ namespace CodePlusXaml
         {
             InitializeComponent();
 
-            MainPage = new OnPlatformSamplePage();
+            MainPage = new ColorViewListPage();
         }
 
         protected override void OnStart()
